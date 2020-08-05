@@ -26,7 +26,7 @@ __tests__/          // jest tests
 dist/               // rendered output (HTML) and CSS style sheet
 lib/                // classes
 src/                // template helper code
-Index.js            // runs the application
+index.js            // runs the application
 
 The first class is an Employee parent class with the following properties and methods:
 - name
@@ -55,8 +55,8 @@ In addition to Employee's properties and methods, Intern will also have:
 - getRole() // Overridden to return 'Intern'
 
 Workflow:
-Install Jest and Inquirer
-Create directory structure
+Install Jest and Inquirer 	✓
+Create directory structure 	✓
 Create failing Employee tests
 Create Employee class constructor that passes tests
 Create failing Manager tests
@@ -70,4 +70,6 @@ If Manager, inquirer prompts for office number
 If Engineer, inquirer prompts for GitHub username
 If Intern, inquirer prompts for school name
 Create HTML template engine
-WriteFile to dist folder 
+WriteFile to dist folder
+Create CSS stylesheet
+Record demo video
