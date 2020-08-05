@@ -6,7 +6,7 @@ test('creates an Intern object', () => {
   expect(intern.name).toBe('Dave');
   expect(intern.id).toBe('D123');
   expect(intern.email).toBe('dave@company.com');
-  expect(intern.school).toBe('dave@company.com');
+  expect(intern.school).toBe('daveard');
   expect(intern.role).toBe('Intern');
 });
 
