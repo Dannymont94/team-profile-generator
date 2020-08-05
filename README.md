@@ -42,7 +42,7 @@ The other three classes will extend Employee.
 In addition to Employee's properties and methods, Manager will also have:
 
 - officeNumber
-- getOfficeNumber
+- getOfficeNumber()
 - getRole() // Overridden to return 'Manager'
 
 In addition to Employee's properties and methods, Engineer will also have:
@@ -62,7 +62,7 @@ Create failing Employee tests ✓
 Create Employee class constructor that passes tests ✓
 Create failing Manager tests ✓
 Create Manager class constructor that passes tests ✓
-Create failing Engineer tests
+Create failing Engineer tests ✓
 Create Engineer class constructor that passes tests
 Create failing Intern tests
 Create Intern class constructor that passes tests
