@@ -11,31 +11,31 @@ test('creates an Engineer object', () => {
 });
 
 test('gets engineer\'s name', () => {
-  const engineer = new Engineer('Dave', 'D123', 'dave@company.com');
+  const engineer = new Engineer('Dave', 'D123', 'dave@company.com', 'davehub');
 
   expect(engineer.getName()).toEqual(expect.stringContaining(engineer.name));
 });
 
 test('gets engineer\'s id', () => {
-  const engineer = new Engineer('Dave', 'D123', 'dave@company.com');
+  const engineer = new Engineer('Dave', 'D123', 'dave@company.com', 'davehub');
 
   expect(engineer.getId()).toEqual(expect.stringContaining(engineer.id));
 });
 
 test('gets engineer\'s email', () => {
-  const engineer = new Engineer('Dave', 'D123', 'dave@company.com');
+  const engineer = new Engineer('Dave', 'D123', 'dave@company.com', 'davehub');
 
   expect(engineer.getEmail()).toEqual(expect.stringContaining(engineer.email));
 });
 
 test('gets engineer\'s github', () => {
-  const engineer = new Engineer('Dave', 'D123', 'dave@company.com');
+  const engineer = new Engineer('Dave', 'D123', 'dave@company.com', 'davehub');
 
   expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github));
 });
 
 test('gets engineer\'s role', () => {
-  const engineer = new Engineer('Dave', 'D123', 'dave@company.com');
+  const engineer = new Engineer('Dave', 'D123', 'dave@company.com', 'davehub');
 
   expect(engineer.getRole()).toEqual(expect.stringContaining('Engineer'));
 });
