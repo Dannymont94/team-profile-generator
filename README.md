@@ -42,6 +42,7 @@ The other three classes will extend Employee.
 In addition to Employee's properties and methods, Manager will also have:
 
 - officeNumber
+- getOfficeNumber
 - getRole() // Overridden to return 'Manager'
 
 In addition to Employee's properties and methods, Engineer will also have:
