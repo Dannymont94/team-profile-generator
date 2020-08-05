@@ -57,8 +57,8 @@ In addition to Employee's properties and methods, Intern will also have:
 Workflow:
 Install Jest and Inquirer 	✓
 Create directory structure 	✓
-Create failing Employee tests
-Create Employee class constructor that passes tests
+Create failing Employee tests ✓
+Create Employee class constructor that passes tests ✓
 Create failing Manager tests
 Create Manager class constructor that passes tests
 Create failing Engineer tests
