@@ -60,8 +60,8 @@ Install Jest and Inquirer 	✓
 Create directory structure 	✓
 Create failing Employee tests ✓
 Create Employee class constructor that passes tests ✓
-Create failing Manager tests
-Create Manager class constructor that passes tests
+Create failing Manager tests ✓
+Create Manager class constructor that passes tests ✓
 Create failing Engineer tests
 Create Engineer class constructor that passes tests
 Create failing Intern tests
