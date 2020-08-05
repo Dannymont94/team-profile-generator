@@ -65,7 +65,8 @@ Create Manager class constructor that passes tests ✓
 Create failing Engineer tests ✓
 Create Engineer class constructor that passes tests ✓
 Create failing Intern tests ✓
-Create Intern class constructor that passes tests
+Create Intern class constructor that passes tests ✓
+Create index.js logic ✓
 Write Inquirer prompts for name, id, email, and role
 If Manager, inquirer prompts for office number
 If Engineer, inquirer prompts for GitHub username
