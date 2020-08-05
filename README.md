@@ -63,8 +63,8 @@ Create Employee class constructor that passes tests ✓
 Create failing Manager tests ✓
 Create Manager class constructor that passes tests ✓
 Create failing Engineer tests ✓
-Create Engineer class constructor that passes tests
-Create failing Intern tests
+Create Engineer class constructor that passes tests ✓
+Create failing Intern tests ✓
 Create Intern class constructor that passes tests
 Write Inquirer prompts for name, id, email, and role
 If Manager, inquirer prompts for office number
