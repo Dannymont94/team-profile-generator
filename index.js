@@ -1,14 +1,15 @@
-const generatePage = require('./src/page-template');
-const writeFile = require('./utils/generate-site');
+const generateHTML = require('./src/generate-html');
+const writeFile = require('./utils/write-file');
 const { promptManager, promptTeam } = require('./utils/prompt-user');
 
 // promptManager()
-//   .then(promptTeam)
-//   .then(teamData => generatePage(teamData))
+//   .then(teamData => promptTeam(teamData))
+//   .then(teamData => generateHTML(teamData))
 //   .then(pageHTML => writeFile(pageHTML))
-//   .then(console.log('Team Profile generated in dist folder!'))
+//   .then(console.log('Team Profile page generated in dist folder!'))
 //   .catch(err => console.log(err));
 
 promptManager()
   .then(teamData => promptTeam(teamData))
+  .then(teamData => generateHTML(teamData))
   .catch(err => console.log(err));
