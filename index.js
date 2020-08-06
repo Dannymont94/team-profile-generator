@@ -59,4 +59,4 @@ mockData = {
 //   .then(teamData => generateHTML(teamData))
 //   .catch(err => console.log(err));
 
-generateHTML(mockData);
+console.log(generateHTML(mockData));
