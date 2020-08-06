@@ -24,6 +24,14 @@ mockData = {
       email: 'nes@nes.com',
       github: 'neshub',
       confirmAddTeamMember: true
+    },
+    {
+      role: 'Engineer',
+      name: 'Bec',
+      id: 'B123',
+      email: 'bec@bec.com',
+      github: 'bechub',
+      confirmAddTeamMember: true
     }
   ],
   interns: [
@@ -33,6 +41,14 @@ mockData = {
       id: 'B123',
       email: 'bub@bub.com',
       school: 'UB',
+      confirmAddTeamMember: false
+    },
+    {
+      role: 'Intern',
+      name: 'Man',
+      id: 'M123',
+      email: 'man@man.com',
+      school: 'UM',
       confirmAddTeamMember: false
     }
   ]

@@ -74,8 +74,10 @@ Prompt user to add new team member ✓
 Confirm if they want to add new team member ✓
   If yes, rerun new team member prompts ✓
   If no, return data ✓
+Use contrsuctors to create new objects from data ✓
 Create HTML template engine
 WriteFile to dist folder
 Create CSS stylesheet
+Add class names to HTML template engine
 Record demo video
 Complete Project Readme
