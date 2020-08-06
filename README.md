@@ -67,11 +67,15 @@ Create Engineer class constructor that passes tests ✓
 Create failing Intern tests ✓
 Create Intern class constructor that passes tests ✓
 Create index.js logic ✓
-Write Inquirer prompts for name, id, email, and role
-If Manager, inquirer prompts for office number
-If Engineer, inquirer prompts for GitHub username
-If Intern, inquirer prompts for school name
+Write Inquirer prompts for Manager including office number ✓
+Prompt user to add new team member ✓
+  If Engineer, prompt for info including GitHub username ✓
+  If Intern, prompt for info including school name ✓
+Confirm if they want to add new team member ✓
+  If yes, rerun new team member prompts ✓
+  If no, return data ✓
 Create HTML template engine
 WriteFile to dist folder
 Create CSS stylesheet
 Record demo video
+Complete Project Readme
