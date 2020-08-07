@@ -79,5 +79,6 @@ Create HTML template engine ✓
 WriteFile to dist folder ✓
 Create CSS stylesheet ✓
 Add class names to HTML template engine ✓
+Copy style.css from src folder to dist folder when HTML is generated ✓
 Record demo video
 Complete Project Readme
