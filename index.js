@@ -2,12 +2,6 @@ const generateHTML = require('./src/generate-html');
 const writeFile = require('./utils/write-file');
 const { promptManager, promptTeam } = require('./utils/prompt-user');
 
-// promptManager()
-//   .then(teamData => promptTeam(teamData))
-//   .then(teamData => generateHTML(teamData))
-//   .then(pageHTML => writeFile(pageHTML))
-//   .then(console.log('Team Profile page generated in dist folder!'))
-//   .catch(err => console.log(err));
 
 mockData = {
   manager: {
@@ -54,9 +48,9 @@ mockData = {
   ]
 };
 
-// promptManager()
-//   .then(teamData => promptTeam(teamData))
-//   .then(teamData => generateHTML(teamData))
-//   .catch(err => console.log(err));
-
-console.log(generateHTML(mockData));
+promptManager()
+  .then(teamData => promptTeam(teamData))
+  .then(teamData => generateHTML(teamData))
+  .then(pageHTML => writeFile(pageHTML))
+  .then(response => console.log(response))
+  .catch(err => console.log(err));
