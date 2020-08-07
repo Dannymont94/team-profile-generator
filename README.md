@@ -77,7 +77,7 @@ Confirm if they want to add new team member ✓
 Use contrsuctors to create new objects from data ✓
 Create HTML template engine ✓
 WriteFile to dist folder ✓
-Create CSS stylesheet
-Add class names to HTML template engine
+Create CSS stylesheet ✓
+Add class names to HTML template engine ✓
 Record demo video
 Complete Project Readme
