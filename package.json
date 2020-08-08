@@ -4,7 +4,7 @@
   "description": "Generates HTML page that displays a nicely formatted team roster based on user input",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
