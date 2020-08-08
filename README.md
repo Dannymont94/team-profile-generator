@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-
+Team Profile Generator is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -20,16 +20,16 @@ npm install
 ```
 
 ## Usage
-To use this application, run 
+To use this application, run the following command:
 ```
 node index
 ```
-and answer the prompts that appear in the command line. Select the employees you'd like to add to your team until all of your team's information has been inputted. After answering all the questions, an HTML file will be generated in the output folder along with a corresponding style.css file.
+Then, answer the prompts that appear in the command line. Select the employees you'd like to add to your team until all of your team's information has been inputted. After answering all the questions, an HTML file will be generated in the output folder along with a corresponding style.css file.
 
 Here is a short [demo video](https://drive.google.com/file/d/15xR9m07KuxQ2qibQO3HxU86oSEE3YhXP/view) to help you use the Team Profile Generator.
 
 ## Sample Generated Readme
-Here is a [sample generated HTML file](https://github.com/Dannymont94/readme-generator/blob/master/dist/sample-readme.md).
+Here is a [sample generated HTML file](https://github.com/Dannymont94/team-profile-generator/blob/master/src/test.html).
 
 ## Credits
 Created by Daniel Monterrosa.
