@@ -8,6 +8,7 @@ Team Profile Generator is a Node.js command-line application that takes in infor
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+* [Sample](#sample)
 * [Credits](#credits)
 * [License](#license)
 * [Tests](#tests)
@@ -28,7 +29,7 @@ Then, answer the prompts that appear in the command line. Select the employees y
 
 Here is a short [demo video](https://drive.google.com/file/d/15xR9m07KuxQ2qibQO3HxU86oSEE3YhXP/view) to help you use the Team Profile Generator.
 
-## Sample Generated Readme
+## Sample
 Here is a [sample generated HTML file](https://github.com/Dannymont94/team-profile-generator/blob/master/src/test.html).
 
 ## Credits
